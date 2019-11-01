@@ -14760,7 +14760,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:266px;
+  width:280px;
   height:19px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -14780,7 +14780,7 @@
   position:absolute;
   left:937px;
   top:766px;
-  width:266px;
+  width:280px;
   height:19px;
   display:flex;
   font-family:'Nunito Sans';
@@ -14799,5 +14799,74 @@
 #u1596_text {
   border-width:0px;
   white-space:nowrap;
+  text-transform:none;
+}
+#u1597_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:293px;
+  height:35px;
+  background:inherit;
+  background-color:rgba(170, 170, 170, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+#u1597 {
+  border-width:0px;
+  position:absolute;
+  left:904px;
+  top:815px;
+  width:293px;
+  height:35px;
+  display:flex;
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+#u1597 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u1597_div.mouseDown {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:293px;
+  height:35px;
+  background:inherit;
+  background-color:rgba(170, 170, 170, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+#u1597.mouseDown {
+  opacity:0.8;
+}
+#u1597_text {
+  border-width:0px;
+  word-wrap:break-word;
   text-transform:none;
 }
