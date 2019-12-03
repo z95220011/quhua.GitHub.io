@@ -11,6 +11,9 @@
   text-transform:none;
 }
 ._形状 {
+  font-family:'ArialMT', 'Arial';
+  font-weight:normal;
+  font-style:normal;
 }
 ._一级标题 {
   font-family:'ArialMT', 'Arial';
@@ -113,6 +116,104 @@
 }
 .label1 {
   font-size:14px;
+  text-align:left;
+}
+._一级标题1 {
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+.primary_button {
+  color:#FFFFFF;
+}
+.text_field {
+  color:#000000;
+  text-align:left;
+}
+.text_area {
+  color:#000000;
+  text-align:left;
+}
+.droplist {
+  color:#000000;
+  text-align:left;
+}
+.checkbox {
+  text-align:left;
+}
+._连接 {
+}
+.form_hint {
+  color:#999999;
+}
+.image {
+}
+._图片_1 {
+  color:#000000;
+}
+._鼠标按下文本链接时 {
+}
+.flow_shape {
+}
+.paragraph {
+  text-align:left;
+}
+.heading_1 {
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+.heading_2 {
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+.shape {
+}
+.horizontal_line {
+}
+.image1 {
+  color:#000000;
+}
+.iconfont {
+  font-family:'iconfont';
+  font-weight:400;
+  font-style:normal;
+  font-size:18px;
+  color:#666666;
+}
+.paragraph1 {
+  text-align:left;
+}
+._文本框 {
+  color:#000000;
+  text-align:left;
+}
+._30号字_服务主标题，例如双行列表内的下方描述信息。__） {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  text-align:left;
+}
+._36号字_顶部标题、大按钮、弹窗提示主标题_ {
+  font-family:'PingFangSC-Regular', 'PingFang SC';
+  font-weight:400;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+._二级标题1 {
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:24px;
   text-align:left;
 }
 textarea, select, input, button { outline: none; }
