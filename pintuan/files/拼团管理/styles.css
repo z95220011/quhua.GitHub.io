@@ -1,12 +1,12 @@
 ﻿body {
   margin:0px;
-  background-color:rgba(236, 232, 232, 1);
+  background-color:rgba(129, 211, 248, 0.0901960784313725);
   background-image:none;
-  position:relative;
-  left:-81px;
-  width:559px;
-  margin-left:auto;
-  margin-right:auto;
+  position:static;
+  left:auto;
+  width:640px;
+  margin-left:0;
+  margin-right:0;
   text-align:left;
 }
 .form_sketch {
@@ -17,7 +17,7 @@
   position:absolute;
   z-index:0;
 }
-#u4165_img {
+#u5157_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -25,7 +25,7 @@
   width:559px;
   height:380px;
 }
-#u4165 {
+#u5157 {
   border-width:0px;
   position:absolute;
   left:81px;
@@ -34,14 +34,14 @@
   height:380px;
   display:flex;
 }
-#u4165 .text {
+#u5157 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u4165_text {
+#u5157_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
