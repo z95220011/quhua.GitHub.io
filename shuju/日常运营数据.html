@@ -1,0 +1,463 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>日常运营数据</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/日常运营数据/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/日常运营数据/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Echarts (组合) -->
+      <div id="u2188" class="ax_default" data-label="Echarts" data-left="100" data-top="100" data-width="1000" data-height="600">
+
+        <!-- acp-code (中继器) -->
+        <div id="u2189" class="ax_default ax_default_hidden" data-label="acp-code" style="display:none; visibility: hidden">
+          <script id="u2189_script" type="axure-repeater-template" data-label="acp-code">
+
+            <!-- acp-code-textArea (文本域) -->
+            <div id="u2190" class="ax_default text_area u2190" data-label="acp-code-textArea">
+              <div id="u2190_div" class="u2190_div"></div>
+              <textarea id="u2190_input" class="u2190_input">// Generate data
+var category = ['市区','万州','江北','南岸','北碚','綦南','长寿','永川','璧山','江津','城口','大足','垫江','丰都','奉节','合川','江津区','开州','南川','彭水','黔江','石柱','铜梁','潼南','巫山','巫溪','武隆','秀山','酉阳','云阳','忠县','川东','检修'];
+var dottedBase = [];
+var lineData = [18092,20728,24045,28348,32808
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,36097,39867,44715,48444,50415
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,56061,62677,59521,67560,18092,20728,24045,28348,32808
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,36097,39867,44715,48444,50415,36097,39867,44715,48444,50415
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,50061,32677,49521,32808];
+var barData = [4600,5000,5500,6500,7500
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,8500,9900,12500,14000,21500
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,23200,24450,25250,33300,4600,5000,5500,6500,7500
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,8500,9900,22500,14000,21500,8500,9900,12500,14000,21500
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,23200,24450,25250,7500];
+var rateData = [];&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+32808
+for (var i = 0; i &lt; 33; i++) {
+&nbsp; &nbsp; // var date = i+2001;
+&nbsp; &nbsp; // category.push(date)
+&nbsp; &nbsp; var rate=barData[i]/lineData[i];
+&nbsp; &nbsp; rateData[i] = rate.toFixed(2);
+}
+
+
+// option
+option = {
+&nbsp; &nbsp; title: {
+&nbsp; &nbsp; &nbsp; &nbsp; text: '增量设备贯通情况-单位',
+&nbsp; &nbsp; &nbsp; &nbsp; x: 'center',
+&nbsp; &nbsp; &nbsp; &nbsp; y: 0,
+&nbsp; &nbsp; &nbsp; &nbsp; textStyle:{
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color:'#B4B4B4',
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fontSize:16,
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fontWeight:'normal',
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; },
+&nbsp; &nbsp; backgroundColor: '#191E40',
+&nbsp; &nbsp; tooltip: {
+&nbsp; &nbsp; &nbsp; &nbsp; trigger: 'axis',
+&nbsp; &nbsp; &nbsp; &nbsp; backgroundColor:'rgba(255,255,255,0.1)',
+&nbsp; &nbsp; &nbsp; &nbsp; axisPointer: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; type: 'shadow',
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; label: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; show: true,
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; backgroundColor: '#7B7DDC'
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; },
+&nbsp; &nbsp; legend: {
+&nbsp; &nbsp; &nbsp; &nbsp; data: ['已贯通', '计划贯通','贯通率',],
+&nbsp; &nbsp; &nbsp; &nbsp; textStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: '#B4B4B4'
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; top:'7%',
+&nbsp; &nbsp; },
+&nbsp; &nbsp; grid:{
+&nbsp; &nbsp; &nbsp; &nbsp; x:'12%',
+&nbsp; &nbsp; &nbsp; &nbsp; width:'82%',
+&nbsp; &nbsp; &nbsp; &nbsp; y:'12%',
+&nbsp; &nbsp; },
+&nbsp; &nbsp; xAxis: {
+&nbsp; &nbsp; &nbsp; &nbsp; data: category,
+&nbsp; &nbsp; &nbsp; &nbsp; axisLine: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lineStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: '#B4B4B4'
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; axisTick:{
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; show:false,
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; },
+&nbsp; &nbsp; yAxis: [{
+
+&nbsp; &nbsp; &nbsp; &nbsp; splitLine: {show: false},
+&nbsp; &nbsp; &nbsp; &nbsp; axisLine: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lineStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: '#B4B4B4',
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; axisLabel:{
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; formatter:'{value} ',
+&nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; {
+
+&nbsp; &nbsp; &nbsp; &nbsp; splitLine: {show: false},
+&nbsp; &nbsp; &nbsp; &nbsp; axisLine: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lineStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: '#B4B4B4',
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; axisLabel:{
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; formatter:'{value} ',
+&nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; }],
+&nbsp; &nbsp; 
+&nbsp; &nbsp; series: [{
+&nbsp; &nbsp; &nbsp; &nbsp; name: '贯通率',
+&nbsp; &nbsp; &nbsp; &nbsp; type: 'line',
+&nbsp; &nbsp; &nbsp; &nbsp; smooth: true,
+&nbsp; &nbsp; &nbsp; &nbsp; showAllSymbol: true,
+&nbsp; &nbsp; &nbsp; &nbsp; symbol: 'emptyCircle',
+&nbsp; &nbsp; &nbsp; &nbsp; symbolSize: 8,
+&nbsp; &nbsp; &nbsp; &nbsp; yAxisIndex: 1,
+&nbsp; &nbsp; &nbsp; &nbsp; itemStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; normal: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color:'#F02FC2'},
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; data: rateData
+&nbsp; &nbsp; }, 
+&nbsp; &nbsp; 
+&nbsp; &nbsp; {
+&nbsp; &nbsp; &nbsp; &nbsp; name: '已贯通',
+&nbsp; &nbsp; &nbsp; &nbsp; type: 'bar',
+&nbsp; &nbsp; &nbsp; &nbsp; barWidth: 10,
+&nbsp; &nbsp; &nbsp; &nbsp; itemStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; normal: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; barBorderRadius: 5,
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: new echarts.graphic.LinearGradient(
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0, 0, 0, 1,
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {offset: 0, color: '#956FD4'},
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {offset: 1, color: '#3EACE5'}
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; )
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; data: barData
+&nbsp; &nbsp; }, 
+&nbsp; &nbsp; 
+&nbsp; &nbsp; {
+&nbsp; &nbsp; &nbsp; &nbsp; name: '计划贯通',
+&nbsp; &nbsp; &nbsp; &nbsp; type: 'bar',
+&nbsp; &nbsp; &nbsp; &nbsp; barGap: '-100%',
+&nbsp; &nbsp; &nbsp; &nbsp; barWidth: 10,
+&nbsp; &nbsp; &nbsp; &nbsp; itemStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; normal: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; barBorderRadius: 5,
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: new echarts.graphic.LinearGradient(
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0, 0, 0, 1,
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {offset: 0, color: 'rgba(156,107,211,0.5)'},
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {offset: 0.2, color: 'rgba(156,107,211,0.3)'},
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {offset: 1, color: 'rgba(156,107,211,0)'}
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; )
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; z: -12,
+&nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; data: lineData
+&nbsp; &nbsp; }, 
+&nbsp;&nbsp; ]
+};</textarea>
+            </div>
+          </script>
+          <div id="u2189-1" class="" style="width: 718px; height: 569px;">
+
+            <!-- acp-code-textArea (文本域) -->
+            <div id="u2190-1" class="ax_default text_area u2190" data-label="acp-code-textArea" style="width: 718px; height: 569px; left: 0px; top: 0px;visibility: inherit">
+              <div id="u2190-1_div" class="u2190_div" style="width: 718px; height: 569px;visibility: inherit"></div>
+              <textarea id="u2190-1_input" class="u2190_input">// Generate data
+var category = ['市区','万州','江北','南岸','北碚','綦南','长寿','永川','璧山','江津','城口','大足','垫江','丰都','奉节','合川','江津区','开州','南川','彭水','黔江','石柱','铜梁','潼南','巫山','巫溪','武隆','秀山','酉阳','云阳','忠县','川东','检修'];
+var dottedBase = [];
+var lineData = [18092,20728,24045,28348,32808
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,36097,39867,44715,48444,50415
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,56061,62677,59521,67560,18092,20728,24045,28348,32808
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,36097,39867,44715,48444,50415,36097,39867,44715,48444,50415
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,50061,32677,49521,32808];
+var barData = [4600,5000,5500,6500,7500
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,8500,9900,12500,14000,21500
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,23200,24450,25250,33300,4600,5000,5500,6500,7500
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,8500,9900,22500,14000,21500,8500,9900,12500,14000,21500
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ,23200,24450,25250,7500];
+var rateData = [];&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+32808
+for (var i = 0; i &lt; 33; i++) {
+&nbsp; &nbsp; // var date = i+2001;
+&nbsp; &nbsp; // category.push(date)
+&nbsp; &nbsp; var rate=barData[i]/lineData[i];
+&nbsp; &nbsp; rateData[i] = rate.toFixed(2);
+}
+
+
+// option
+option = {
+&nbsp; &nbsp; title: {
+&nbsp; &nbsp; &nbsp; &nbsp; text: '增量设备贯通情况-单位',
+&nbsp; &nbsp; &nbsp; &nbsp; x: 'center',
+&nbsp; &nbsp; &nbsp; &nbsp; y: 0,
+&nbsp; &nbsp; &nbsp; &nbsp; textStyle:{
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color:'#B4B4B4',
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fontSize:16,
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; fontWeight:'normal',
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; },
+&nbsp; &nbsp; backgroundColor: '#191E40',
+&nbsp; &nbsp; tooltip: {
+&nbsp; &nbsp; &nbsp; &nbsp; trigger: 'axis',
+&nbsp; &nbsp; &nbsp; &nbsp; backgroundColor:'rgba(255,255,255,0.1)',
+&nbsp; &nbsp; &nbsp; &nbsp; axisPointer: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; type: 'shadow',
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; label: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; show: true,
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; backgroundColor: '#7B7DDC'
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; },
+&nbsp; &nbsp; legend: {
+&nbsp; &nbsp; &nbsp; &nbsp; data: ['已贯通', '计划贯通','贯通率',],
+&nbsp; &nbsp; &nbsp; &nbsp; textStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: '#B4B4B4'
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; top:'7%',
+&nbsp; &nbsp; },
+&nbsp; &nbsp; grid:{
+&nbsp; &nbsp; &nbsp; &nbsp; x:'12%',
+&nbsp; &nbsp; &nbsp; &nbsp; width:'82%',
+&nbsp; &nbsp; &nbsp; &nbsp; y:'12%',
+&nbsp; &nbsp; },
+&nbsp; &nbsp; xAxis: {
+&nbsp; &nbsp; &nbsp; &nbsp; data: category,
+&nbsp; &nbsp; &nbsp; &nbsp; axisLine: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lineStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: '#B4B4B4'
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; axisTick:{
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; show:false,
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; },
+&nbsp; &nbsp; yAxis: [{
+
+&nbsp; &nbsp; &nbsp; &nbsp; splitLine: {show: false},
+&nbsp; &nbsp; &nbsp; &nbsp; axisLine: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lineStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: '#B4B4B4',
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; axisLabel:{
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; formatter:'{value} ',
+&nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; {
+
+&nbsp; &nbsp; &nbsp; &nbsp; splitLine: {show: false},
+&nbsp; &nbsp; &nbsp; &nbsp; axisLine: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; lineStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: '#B4B4B4',
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; axisLabel:{
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; formatter:'{value} ',
+&nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; }],
+&nbsp; &nbsp; 
+&nbsp; &nbsp; series: [{
+&nbsp; &nbsp; &nbsp; &nbsp; name: '贯通率',
+&nbsp; &nbsp; &nbsp; &nbsp; type: 'line',
+&nbsp; &nbsp; &nbsp; &nbsp; smooth: true,
+&nbsp; &nbsp; &nbsp; &nbsp; showAllSymbol: true,
+&nbsp; &nbsp; &nbsp; &nbsp; symbol: 'emptyCircle',
+&nbsp; &nbsp; &nbsp; &nbsp; symbolSize: 8,
+&nbsp; &nbsp; &nbsp; &nbsp; yAxisIndex: 1,
+&nbsp; &nbsp; &nbsp; &nbsp; itemStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; normal: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color:'#F02FC2'},
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; data: rateData
+&nbsp; &nbsp; }, 
+&nbsp; &nbsp; 
+&nbsp; &nbsp; {
+&nbsp; &nbsp; &nbsp; &nbsp; name: '已贯通',
+&nbsp; &nbsp; &nbsp; &nbsp; type: 'bar',
+&nbsp; &nbsp; &nbsp; &nbsp; barWidth: 10,
+&nbsp; &nbsp; &nbsp; &nbsp; itemStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; normal: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; barBorderRadius: 5,
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: new echarts.graphic.LinearGradient(
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0, 0, 0, 1,
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {offset: 0, color: '#956FD4'},
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {offset: 1, color: '#3EACE5'}
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; )
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; data: barData
+&nbsp; &nbsp; }, 
+&nbsp; &nbsp; 
+&nbsp; &nbsp; {
+&nbsp; &nbsp; &nbsp; &nbsp; name: '计划贯通',
+&nbsp; &nbsp; &nbsp; &nbsp; type: 'bar',
+&nbsp; &nbsp; &nbsp; &nbsp; barGap: '-100%',
+&nbsp; &nbsp; &nbsp; &nbsp; barWidth: 10,
+&nbsp; &nbsp; &nbsp; &nbsp; itemStyle: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; normal: {
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; barBorderRadius: 5,
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; color: new echarts.graphic.LinearGradient(
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0, 0, 0, 1,
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {offset: 0, color: 'rgba(156,107,211,0.5)'},
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {offset: 0.2, color: 'rgba(156,107,211,0.3)'},
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {offset: 1, color: 'rgba(156,107,211,0)'}
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ]
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; )
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
+&nbsp; &nbsp; &nbsp; &nbsp; },
+&nbsp; &nbsp; &nbsp; &nbsp; z: -12,
+&nbsp; &nbsp; &nbsp; &nbsp; 
+&nbsp; &nbsp; &nbsp; &nbsp; data: lineData
+&nbsp; &nbsp; }, 
+&nbsp;&nbsp; ]
+};</textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- acp-js (中继器) -->
+        <div id="u2191" class="ax_default ax_default_hidden" data-label="acp-js" style="display:none; visibility: hidden">
+          <script id="u2191_script" type="axure-repeater-template" data-label="acp-js">
+          </script>
+          <div id="u2191-1" class="" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2191-2" class="" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2191-3" class="" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2191-4" class="" style="width: 0px; height: 0px;">
+          </div>
+        </div>
+
+        <!-- acp-echarts-chart (矩形) -->
+        <div id="u2192" class="ax_default box_1" data-label="acp-echarts-chart">
+          <img id="u2192_img" class="img " src="images/日常运营数据/acp-echarts-chart_u2192.svg"/>
+          <div id="u2192_text" class="text ">
+            <p style="font-size:16px;line-height:36px;"><span>Axhub Charts</span></p><p style="font-size:36px;line-height:48px;"><span>ECharts Block</span></p><p style="font-size:14px;line-height:21px;"><span style="color:#CCCCCC;">详细使用方法请查看帮助文档</span></p><p style="font-size:14px;line-height:21px;"><span style="color:#CCCCCC;">详情访问：https://axhub.im/charts</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 饼图 (组合) -->
+      <div id="u2193" class="ax_default" data-label="饼图" data-left="436" data-top="858" data-width="500" data-height="300">
+
+        <!-- acp-config (中继器) -->
+        <div id="u2194" class="ax_default" data-label="acp-config">
+          <script id="u2194_script" type="axure-repeater-template" data-label="acp-config">
+          </script>
+          <div id="u2194-1" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2194-2" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2194-3" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2194-4" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2194-5" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2194-6" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2194-7" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2194-8" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2194-9" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2194-10" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2194-11" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+        </div>
+
+        <!-- acp-data (中继器) -->
+        <div id="u2195" class="ax_default" data-label="acp-data">
+          <script id="u2195_script" type="axure-repeater-template" data-label="acp-data">
+          </script>
+          <div id="u2195-1" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2195-2" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2195-3" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2195-4" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+          <div id="u2195-5" class="preeval" style="width: 0px; height: 0px;">
+          </div>
+        </div>
+
+        <!-- acp-pie-chart (矩形) -->
+        <div id="u2196" class="ax_default box_1" data-label="acp-pie-chart">
+          <img id="u2196_img" class="img " src="images/数据统计分析/axhub-gantt-chart_u1379.svg"/>
+          <div id="u2196_text" class="text ">
+            <p style="font-size:16px;line-height:36px;"><span>Axhub Charts</span></p><p style="font-size:36px;line-height:48px;"><span>饼图</span></p><p style="font-size:14px;line-height:21px;"><span style="color:#CCCCCC;">通过 Group 内 data 和 config 中继器可更改数据及配置</span></p><p style="font-size:14px;line-height:21px;"><span style="color:#CCCCCC;">详情访问：https://axhub.im/charts</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
