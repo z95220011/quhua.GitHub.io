@@ -1,6 +1,7 @@
-<svg width="80px"  height="80px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-disqus">
-    <path ng-attr-d="{{config.d}}" ng-attr-stroke-width="{{config.width}}" ng-attr-stroke="{{config.stroke}}" fill="none" d="M82 50A32 32 0 1 1 23.533421623214014 32.01333190873183 L21.71572875253809 21.7157287525381 L32.013331908731814 23.53342162321403 A32 32 0 0 1 82 50" stroke-width="5" stroke="#ff727d"></path>
-    <circle cx="50" cy="50" ng-attr-r="{{config.radius2}}" ng-attr-stroke-width="{{config.width}}" ng-attr-stroke="{{config.stroke}}" ng-attr-stroke-dasharray="{{config.dasharray}}" fill="none" stroke-linecap="round" r="20" stroke-width="5" stroke="#ff727d" stroke-dasharray="31.41592653589793 31.41592653589793" transform="rotate(96 50 50)">
-      <animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animateTransform>
-    </circle>
+<svg width="79px"  height="79px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-heart">
+    <g transform="translate(50 50)">
+      <path ng-attr-fill="{{config.color}}" d="M40.7-34.3c-9.8-9.8-25.6-9.8-35.4,0L0-29l-5.3-5.3c-9.8-9.8-25.6-9.8-35.4,0l0,0c-9.8,9.8-9.8,25.6,0,35.4l5.3,5.3L-23,18.7l23,23l23-23L35.4,6.3L40.7,1C50.4-8.8,50.4-24.6,40.7-34.3z" fill="#fc636b" transform="scale(0.640396 0.640396)">
+        <animateTransform attributeName="transform" type="scale" calcMode="spline" values="0.68;0.8;0.6000000000000001;0.7200000000000001;0.68;0.6400000000000001" keyTimes="0;0.05;0.39;0.45;0.6;1" dur="1s" keySplines="0.215 0.61,0.355 1;0.215 0.61,0.355 1;0.215 0.61,0.355 1;0.215 0.61,0.355 1;0.215 0.61,0.355 1" begin="0s" repeatCount="indefinite"></animateTransform>
+      </path>
+    </g>
   </svg>
