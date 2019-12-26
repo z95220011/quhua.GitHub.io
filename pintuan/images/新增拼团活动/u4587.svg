@@ -1,12 +1,1 @@
-<svg width="80px"  height="80px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-flickr">
-    <circle cx="59.6" cy="50" ng-attr-fill="{{config.c1}}" ng-attr-r="{{config.radius}}" fill="#ff7c81" r="18">
-      <animate attributeName="cx" calcMode="linear" values="32;68;32" keyTimes="0;0.5;1" dur="1" begin="-0.5s" repeatCount="indefinite"></animate>
-    </circle>
-    <circle cx="40.4" cy="50" ng-attr-fill="{{config.c2}}" ng-attr-r="{{config.radius}}" fill="#ffbd7f" r="18">
-      <animate attributeName="cx" calcMode="linear" values="32;68;32" keyTimes="0;0.5;1" dur="1" begin="0s" repeatCount="indefinite"></animate>
-    </circle>
-    <circle cx="59.6" cy="50" ng-attr-fill="{{config.c1}}" ng-attr-r="{{config.radius}}" fill="#ff7c81" r="18">
-      <animate attributeName="cx" calcMode="linear" values="32;68;32" keyTimes="0;0.5;1" dur="1" begin="-0.5s" repeatCount="indefinite"></animate>
-      <animate attributeName="fill-opacity" values="0;0;1;1" calcMode="discrete" keyTimes="0;0.499;0.5;1" ng-attr-dur="{{config.speed}}s" repeatCount="indefinite" dur="1s"></animate>
-    </circle>
-  </svg>
+<svg width="200px"  height="200px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-rolling" style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%;"><circle cx="50" cy="50" fill="none" ng-attr-stroke="{{config.color}}" ng-attr-stroke-width="{{config.width}}" ng-attr-r="{{config.radius}}" ng-attr-stroke-dasharray="{{config.dasharray}}" stroke="#ffffff" stroke-width="10" r="35" stroke-dasharray="164.93361431346415 56.97787143782138"><animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animateTransform></circle></svg>
