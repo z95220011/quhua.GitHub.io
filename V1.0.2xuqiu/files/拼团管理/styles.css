@@ -1,12 +1,11 @@
 ﻿body {
   margin:0px;
-  background-color:rgba(129, 211, 248, 0.0901960784313725);
   background-image:none;
-  position:static;
-  left:auto;
-  width:640px;
-  margin-left:0;
-  margin-right:0;
+  position:relative;
+  left:-81px;
+  width:559px;
+  margin-left:auto;
+  margin-right:auto;
   text-align:left;
 }
 .form_sketch {
@@ -17,7 +16,7 @@
   position:absolute;
   z-index:0;
 }
-#u6045_img {
+#u6983_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -25,7 +24,7 @@
   width:559px;
   height:380px;
 }
-#u6045 {
+#u6983 {
   border-width:0px;
   position:absolute;
   left:81px;
@@ -34,14 +33,14 @@
   height:380px;
   display:flex;
 }
-#u6045 .text {
+#u6983 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u6045_text {
+#u6983_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
