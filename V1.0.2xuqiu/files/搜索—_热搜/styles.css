@@ -3,7 +3,7 @@
   background-image:none;
   position:relative;
   left:-29px;
-  width:1180px;
+  width:858px;
   margin-left:auto;
   margin-right:auto;
   text-align:left;
@@ -995,7 +995,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'微软雅黑';
+  font-family:'微软雅黑 Regular', '微软雅黑';
   font-weight:400;
   font-style:normal;
   font-size:18px;
@@ -1008,7 +1008,7 @@
   width:36px;
   height:24px;
   display:flex;
-  font-family:'微软雅黑';
+  font-family:'微软雅黑 Regular', '微软雅黑';
   font-weight:400;
   font-style:normal;
   font-size:18px;
@@ -3945,7 +3945,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'微软雅黑';
+  font-family:'微软雅黑 Regular', '微软雅黑';
   font-weight:400;
   font-style:normal;
   font-size:18px;
@@ -3958,7 +3958,7 @@
   width:1px;
   height:24px;
   display:flex;
-  font-family:'微软雅黑';
+  font-family:'微软雅黑 Regular', '微软雅黑';
   font-weight:400;
   font-style:normal;
   font-size:18px;
@@ -5989,7 +5989,7 @@
 #u1073 {
   border-width:0px;
   position:absolute;
-  left:27px;
+  left:8px;
   top:98px;
   width:190px;
   height:20px;
@@ -6016,7 +6016,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:74px;
+  width:88px;
   height:24px;
   background:inherit;
   background-color:rgba(255, 255, 255, 1);
@@ -6037,9 +6037,9 @@
 #u1074 {
   border-width:0px;
   position:absolute;
-  left:223px;
+  left:202px;
   top:96px;
-  width:74px;
+  width:88px;
   height:24px;
   display:flex;
   font-family:'华文细黑';
@@ -6099,41 +6099,48 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:90px;
-  height:21px;
+  width:102px;
+  height:24px;
   background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  border:none;
-  border-radius:0px;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(127, 127, 127, 1);
+  border-radius:5px;
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
-  font-weight:700;
+  font-family:'华文细黑';
+  font-weight:400;
   font-style:normal;
+  font-size:15px;
+  color:#7F7F7F;
 }
 #u1076 {
   border-width:0px;
   position:absolute;
-  left:633px;
-  top:6px;
-  width:90px;
-  height:21px;
+  left:198px;
+  top:96px;
+  width:102px;
+  height:24px;
   display:flex;
-  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
-  font-weight:700;
+  font-family:'华文细黑';
+  font-weight:400;
   font-style:normal;
+  font-size:15px;
+  color:#7F7F7F;
 }
 #u1076 .text {
   position:absolute;
-  align-self:flex-start;
-  padding:0px 0px 0px 0px;
+  align-self:center;
+  padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
 #u1076_text {
   border-width:0px;
-  white-space:nowrap;
+  word-wrap:break-word;
   text-transform:none;
 }
 #u1077_div {
@@ -6155,8 +6162,8 @@
 #u1077 {
   border-width:0px;
   position:absolute;
-  left:909px;
-  top:289px;
+  left:13px;
+  top:226px;
   width:300px;
   height:47px;
   display:flex;
@@ -6179,36 +6186,40 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:294px;
-  height:47px;
+  width:90px;
+  height:21px;
   background:inherit;
-  background-color:rgba(0, 0, 0, 1);
+  background-color:rgba(255, 255, 255, 0);
   border:none;
   border-radius:0px;
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  color:#FFFFFF;
+  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight:700;
+  font-style:normal;
 }
 #u1078 {
   border-width:0px;
   position:absolute;
-  left:909px;
-  top:355px;
-  width:294px;
-  height:47px;
+  left:633px;
+  top:6px;
+  width:90px;
+  height:21px;
   display:flex;
-  color:#FFFFFF;
+  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight:700;
+  font-style:normal;
 }
 #u1078 .text {
   position:absolute;
-  align-self:center;
-  padding:2px 2px 2px 2px;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
 #u1078_text {
   border-width:0px;
-  word-wrap:break-word;
+  white-space:nowrap;
   text-transform:none;
 }
