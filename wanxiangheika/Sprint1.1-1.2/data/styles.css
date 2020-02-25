@@ -11,8 +11,12 @@
   text-transform:none;
 }
 ._形状 {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:normal;
+  font-style:normal;
 }
 ._图片_ {
+  color:#000000;
 }
 ._一级标题 {
   font-family:'Arial Normal', 'Arial';
@@ -215,5 +219,8 @@
   text-align:left;
 }
 .placeholder {
+}
+.image2 {
+  color:#000000;
 }
 textarea, select, input, button { outline: none; }
