@@ -74,7 +74,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'DFWaWaSC-W5', 'Wawati SC';
+  font-family:'Wawati SC Regular', 'Wawati SC';
   font-weight:400;
   font-style:normal;
   font-size:28px;
@@ -90,7 +90,7 @@
   width:1100px;
   height:39px;
   display:flex;
-  font-family:'DFWaWaSC-W5', 'Wawati SC';
+  font-family:'Wawati SC Regular', 'Wawati SC';
   font-weight:400;
   font-style:normal;
   font-size:28px;
@@ -110,117 +110,7 @@
   word-wrap:break-word;
   text-transform:none;
 }
-#u9 {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:0px;
-  height:0px;
-}
-#u10_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:136px;
-  height:136px;
-}
-#u10 {
-  border-width:0px;
-  position:absolute;
-  left:55px;
-  top:75px;
-  width:136px;
-  height:136px;
-  display:flex;
-}
-#u10 .text {
-  position:absolute;
-  align-self:center;
-  padding:2px 2px 2px 2px;
-  box-sizing:border-box;
-  width:100%;
-}
-#u10_text {
-  border-width:0px;
-  word-wrap:break-word;
-  text-transform:none;
-  visibility:hidden;
-}
-#u11_div {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:129px;
-  height:16px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  border:none;
-  border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-}
-#u11 {
-  border-width:0px;
-  position:absolute;
-  left:60px;
-  top:229px;
-  width:129px;
-  height:16px;
-  display:flex;
-}
-#u11 .text {
-  position:absolute;
-  align-self:flex-start;
-  padding:0px 0px 0px 0px;
-  box-sizing:border-box;
-  width:100%;
-}
-#u11_text {
-  border-width:0px;
-  white-space:nowrap;
-  text-transform:none;
-}
-#u12_div {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:71px;
-  height:16px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 0);
-  border:none;
-  border-radius:0px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-}
-#u12 {
-  border-width:0px;
-  position:absolute;
-  left:60px;
-  top:254px;
-  width:71px;
-  height:16px;
-  display:flex;
-}
-#u12 .text {
-  position:absolute;
-  align-self:flex-start;
-  padding:0px 0px 0px 0px;
-  box-sizing:border-box;
-  width:100%;
-}
-#u12_text {
-  border-width:0px;
-  white-space:nowrap;
-  text-transform:none;
-}
-#u13_div {
+#u9_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -236,7 +126,7 @@
   box-shadow:none;
   color:#FFFFFF;
 }
-#u13 {
+#u9 {
   border-width:0px;
   position:absolute;
   left:156px;
@@ -246,16 +136,98 @@
   display:flex;
   color:#FFFFFF;
 }
-#u13 .text {
+#u9 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u13_text {
+#u9_text {
   border-width:0px;
   word-wrap:break-word;
+  text-transform:none;
+}
+#u10 {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
+  height:0px;
+}
+#u11_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:136px;
+  height:136px;
+}
+#u11 {
+  border-width:0px;
+  position:absolute;
+  left:43px;
+  top:58px;
+  width:136px;
+  height:136px;
+  display:flex;
+}
+#u11 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u11_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u12_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:133px;
+  height:16px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  color:#027DB4;
+}
+#u12 {
+  border-width:0px;
+  position:absolute;
+  left:48px;
+  top:212px;
+  width:133px;
+  height:16px;
+  display:flex;
+  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  color:#027DB4;
+}
+#u12 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u12_text {
+  border-width:0px;
+  white-space:nowrap;
   text-transform:none;
 }
 #u7_state1 {
@@ -285,7 +257,7 @@
   width:1px;
   height:1px;
 }
-#u14_div {
+#u13_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -309,7 +281,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'DFWaWaSC-W5', 'Wawati SC';
+  font-family:'Wawati SC Regular', 'Wawati SC';
   font-weight:400;
   font-style:normal;
   font-size:20px;
@@ -317,7 +289,7 @@
   text-align:left;
   line-height:28px;
 }
-#u14 {
+#u13 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -325,7 +297,7 @@
   width:1100px;
   height:39px;
   display:flex;
-  font-family:'DFWaWaSC-W5', 'Wawati SC';
+  font-family:'Wawati SC Regular', 'Wawati SC';
   font-weight:400;
   font-style:normal;
   font-size:20px;
@@ -333,19 +305,19 @@
   text-align:left;
   line-height:28px;
 }
-#u14 .text {
+#u13 .text {
   position:absolute;
   align-self:center;
   padding:0px 0px 0px 20px;
   box-sizing:border-box;
   width:100%;
 }
-#u14_text {
+#u13_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
 }
-#u15 {
+#u14 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -353,7 +325,7 @@
   width:0px;
   height:0px;
 }
-#u16_img {
+#u15_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -361,7 +333,7 @@
   width:136px;
   height:136px;
 }
-#u16 {
+#u15 {
   border-width:0px;
   position:absolute;
   left:43px;
@@ -370,25 +342,25 @@
   height:136px;
   display:flex;
 }
-#u16 .text {
+#u15 .text {
   position:absolute;
   align-self:center;
   padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
-#u16_text {
+#u15_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
   visibility:hidden;
 }
-#u17_div {
+#u16_div {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:129px;
+  width:133px;
   height:16px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -397,26 +369,70 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight:700;
+  font-style:normal;
 }
-#u17 {
+#u16 {
   border-width:0px;
   position:absolute;
   left:48px;
   top:212px;
-  width:129px;
+  width:133px;
   height:16px;
   display:flex;
+  font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+  font-weight:700;
+  font-style:normal;
 }
-#u17 .text {
+#u16 .text {
   position:absolute;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
-#u17_text {
+#u16_text {
   border-width:0px;
   white-space:nowrap;
+  text-transform:none;
+}
+#u17_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:86px;
+  height:27px;
+  background:inherit;
+  background-color:rgba(112, 182, 3, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  color:#FFFFFF;
+}
+#u17 {
+  border-width:0px;
+  position:absolute;
+  left:95px;
+  top:6px;
+  width:86px;
+  height:27px;
+  display:flex;
+  color:#FFFFFF;
+}
+#u17 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u17_text {
+  border-width:0px;
+  word-wrap:break-word;
   text-transform:none;
 }
 #u7_state2 {
@@ -631,7 +647,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'DFWaWaSC-W5', 'Wawati SC';
+  font-family:'Wawati SC Regular', 'Wawati SC';
   font-weight:400;
   font-style:normal;
   font-size:20px;
@@ -647,7 +663,7 @@
   width:1100px;
   height:39px;
   display:flex;
-  font-family:'DFWaWaSC-W5', 'Wawati SC';
+  font-family:'Wawati SC Regular', 'Wawati SC';
   font-weight:400;
   font-style:normal;
   font-size:20px;
@@ -689,7 +705,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'等线 Bold', '等线';
+  font-family:'等线 Bold', '等线 Regular', '等线';
   font-weight:700;
   font-style:normal;
 }
@@ -701,7 +717,7 @@
   width:72px;
   height:19px;
   display:flex;
-  font-family:'等线 Bold', '等线';
+  font-family:'等线 Bold', '等线 Regular', '等线';
   font-weight:700;
   font-style:normal;
 }
@@ -857,7 +873,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'DFWaWaSC-W5', 'Wawati SC';
+  font-family:'Wawati SC Regular', 'Wawati SC';
   font-weight:400;
   font-style:normal;
   font-size:28px;
@@ -873,7 +889,7 @@
   width:1100px;
   height:39px;
   display:flex;
-  font-family:'DFWaWaSC-W5', 'Wawati SC';
+  font-family:'Wawati SC Regular', 'Wawati SC';
   font-weight:400;
   font-style:normal;
   font-size:28px;
@@ -975,7 +991,155 @@
   width:0px;
   height:0px;
 }
+#u33_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:136px;
+  height:136px;
+}
 #u33 {
+  border-width:0px;
+  position:absolute;
+  left:35px;
+  top:62px;
+  width:136px;
+  height:136px;
+  display:flex;
+}
+#u33 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u33_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
+}
+#u34_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:129px;
+  height:16px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u34 {
+  border-width:0px;
+  position:absolute;
+  left:40px;
+  top:216px;
+  width:129px;
+  height:16px;
+  display:flex;
+}
+#u34 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u34_text {
+  border-width:0px;
+  white-space:nowrap;
+  text-transform:none;
+}
+#u35_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:71px;
+  height:16px;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 0);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+#u35 {
+  border-width:0px;
+  position:absolute;
+  left:40px;
+  top:241px;
+  width:71px;
+  height:16px;
+  display:flex;
+}
+#u35 .text {
+  position:absolute;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u35_text {
+  border-width:0px;
+  white-space:nowrap;
+  text-transform:none;
+}
+#u36_div {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:86px;
+  height:27px;
+  background:inherit;
+  background-color:rgba(2, 125, 180, 1);
+  border:none;
+  border-radius:0px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  color:#FFFFFF;
+}
+#u36 {
+  border-width:0px;
+  position:absolute;
+  left:156px;
+  top:9px;
+  width:86px;
+  height:27px;
+  display:flex;
+  color:#FFFFFF;
+}
+#u36 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u36_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u37 {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:0px;
+  height:0px;
+}
+#u38 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -983,7 +1147,7 @@
   width:1358px;
   height:62px;
 }
-#u33_state0 {
+#u38_state0 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1002,7 +1166,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u33_state0_content {
+#u38_state0_content {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1010,7 +1174,7 @@
   width:1px;
   height:1px;
 }
-#u34_div {
+#u39_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1031,14 +1195,14 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u34 {
+#u39 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1046,21 +1210,21 @@
   width:201px;
   height:58px;
   display:flex;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u34 .text {
+#u39 .text {
   position:absolute;
   align-self:center;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
-#u34_div.mouseOver {
+#u39_div.mouseOver {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1081,16 +1245,16 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u34.mouseOver {
+#u39.mouseOver {
 }
-#u34_div.mouseDown {
+#u39_div.mouseDown {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1111,16 +1275,16 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u34.mouseDown {
+#u39.mouseDown {
 }
-#u34_div.selected {
+#u39_div.selected {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1141,21 +1305,21 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u34.selected {
+#u39.selected {
 }
-#u34_text {
+#u39_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
 }
-#u35_div {
+#u40_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1176,14 +1340,14 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u35 {
+#u40 {
   border-width:0px;
   position:absolute;
   left:212px;
@@ -1191,21 +1355,21 @@
   width:201px;
   height:58px;
   display:flex;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u35 .text {
+#u40 .text {
   position:absolute;
   align-self:center;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
-#u35_div.mouseOver {
+#u40_div.mouseOver {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1226,16 +1390,16 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u35.mouseOver {
+#u40.mouseOver {
 }
-#u35_div.mouseDown {
+#u40_div.mouseDown {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1256,16 +1420,16 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u35.mouseDown {
+#u40.mouseDown {
 }
-#u35_div.selected {
+#u40_div.selected {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1286,21 +1450,21 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u35.selected {
+#u40.selected {
 }
-#u35_text {
+#u40_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
 }
-#u36_div {
+#u41_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1321,14 +1485,14 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#FFFFFF;
   line-height:32px;
 }
-#u36 {
+#u41 {
   border-width:0px;
   position:absolute;
   left:423px;
@@ -1336,21 +1500,21 @@
   width:201px;
   height:58px;
   display:flex;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#FFFFFF;
   line-height:32px;
 }
-#u36 .text {
+#u41 .text {
   position:absolute;
   align-self:center;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
-#u36_div.mouseOver {
+#u41_div.mouseOver {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1371,16 +1535,16 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#FFFFFF;
   line-height:32px;
 }
-#u36.mouseOver {
+#u41.mouseOver {
 }
-#u36_div.mouseDown {
+#u41_div.mouseDown {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1401,16 +1565,16 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#FFFFFF;
   line-height:32px;
 }
-#u36.mouseDown {
+#u41.mouseDown {
 }
-#u36_div.selected {
+#u41_div.selected {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1431,21 +1595,21 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#FFFFFF;
   line-height:32px;
 }
-#u36.selected {
+#u41.selected {
 }
-#u36_text {
+#u41_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
 }
-#u37_div {
+#u42_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1466,14 +1630,14 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u37 {
+#u42 {
   border-width:0px;
   position:absolute;
   left:635px;
@@ -1481,21 +1645,21 @@
   width:201px;
   height:58px;
   display:flex;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u37 .text {
+#u42 .text {
   position:absolute;
   align-self:center;
   padding:0px 0px 0px 0px;
   box-sizing:border-box;
   width:100%;
 }
-#u37_div.mouseOver {
+#u42_div.mouseOver {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1516,16 +1680,16 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u37.mouseOver {
+#u42.mouseOver {
 }
-#u37_div.mouseDown {
+#u42_div.mouseDown {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1546,16 +1710,16 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u37.mouseDown {
+#u42.mouseDown {
 }
-#u37_div.selected {
+#u42_div.selected {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -1576,16 +1740,16 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'STLibianSC-Regular', 'Libian SC';
+  font-family:'Libian SC Regular', 'Libian SC';
   font-weight:400;
   font-style:normal;
   font-size:35px;
   color:#F6F6F6;
   line-height:32px;
 }
-#u37.selected {
+#u42.selected {
 }
-#u37_text {
+#u42_text {
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
